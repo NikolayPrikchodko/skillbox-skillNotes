@@ -10,7 +10,6 @@
     "dev": "nodemon index.js -e js,njk",
     "db:migrate": "migrate-mongo up",
     "test": "echo \"Tests passed\" && exit 0",
-    "build": "rimraf public/bundle.* && rollup --config",
     "prettify": "prettier --write",
     "prettify:all": "prettier --write \"./**/*.{js,json}\"",
     "lint": "eslint",
