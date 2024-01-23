@@ -9,6 +9,7 @@
     "start": "node index.js",
     "dev": "nodemon index.js -e js,njk",
     "db:migrate": "migrate-mongo up",
+    "build": "CI=false",
     "test": "echo \"Tests passed\" && exit 0",
     "prettify": "prettier --write",
     "prettify:all": "prettier --write \"./**/*.{js,json}\"",
